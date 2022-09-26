@@ -1,5 +1,4 @@
-# homework10
-# 10 Object-Oriented Programming: Team Profile Generator
+# homework10: Team Profile Generator
 
 ## Your Task
 
