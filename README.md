@@ -76,7 +76,7 @@ https://drive.google.com/file/d/15oRcJiCHnwHkCGZ0Ank3XIlgrTPDkmVz/view
 
 # A sample HTML file generated using my application:
 
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,7 +173,7 @@ https://drive.google.com/file/d/15oRcJiCHnwHkCGZ0Ank3XIlgrTPDkmVz/view
 </body>
 </html>
 
-
+```
 
 ---
 © Done by: Bocar Ly
