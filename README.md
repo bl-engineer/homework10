@@ -74,6 +74,106 @@ You are required to submit the following for review:
 ## Walkthrough video link:
 https://drive.google.com/file/d/15oRcJiCHnwHkCGZ0Ank3XIlgrTPDkmVz/view
 
+# A sample HTML file generated using my application:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar" id="navbar">
+        <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">Team Profile</span>
+    </nav>
+</header>
+  <main>
+    <div class="container">
+      
+  <div class="col-4 mt-4">
+    <div class="card h-100">
+      <div class="card-header">
+        <h3>Jared</h3>
+        <h4>Manager</h4>
+      </div>
+      <div class="card-body">
+        <p class="id">ID: 1</p>
+        <p class="email">Email: <a href="mailto:jared@fakemail.com">jared@fakemail.com</a></p>
+        <p class="office">Office Number: 1</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-4 mt-4">
+    <div class="card h-100">
+      <div class="card-header">
+          <h3>Alec</h3>
+          <h4>Engineer</h4>
+      </div>
+      <div class="card-body">
+        <p class="id">ID: 2</p>
+        <p class="email">Email: <a href="mailto:alec@fakemail.com">alec@fakemail.com</a></p>
+        <p class="github">Github: <a href="https://github.com/bl-engineer">bl-engineer</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-4 mt-4">
+    <div class="card h-100">
+      <div class="card-header">
+          <h3>Grace</h3>
+          <h4>Engineer</h4>
+      </div>
+      <div class="card-body">
+        <p class="id">ID: 3</p>
+        <p class="email">Email: <a href="mailto:grace@gmail.com">grace@gmail.com</a></p>
+        <p class="github">Github: <a href="https://github.com/gchoi2u">gchoi2u</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-4 mt-4">
+    <div class="card h-100">
+      <div class="card-header">
+          <h3>Jhon</h3>
+          <h4>Engineer</h4>
+      </div>
+      <div class="card-body">
+        <p class="id">ID: 4</p>
+        <p class="email">Email: <a href="mailto:jhon@yahoo.fr">jhon@yahoo.fr</a></p>
+        <p class="github">Github: <a href="https://github.com/johnlo">johnlo</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-4 mt-4">
+    <div class="card h-100">
+      <div class="card-header">
+        <h3>Tammer</h3>
+        <h4>Intern</h4>
+      </div>
+      <div class="card-body">
+        <p class="id">ID: 5</p>
+        <p class="email">Email:<a href="mailto:tammer@fakemail.com">tammer@fakemail.com</a></p>
+        <p class="school">University: GeorgTech</p>
+      </div>
+    </div>
+  </div>
+  
+    </div>
+  </main>
+</body>
+</html>
+
+
 
 ---
 © Done by: Bocar Ly
