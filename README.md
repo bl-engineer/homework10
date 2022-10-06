@@ -70,8 +70,9 @@ You are required to submit the following for review:
 
 <img width="1274" alt="Screen Shot 2022-10-05 at 10 40 20 PM" src="https://user-images.githubusercontent.com/15242022/194206174-8a14e081-14fb-4fb6-a91c-5dae92601e85.png">
 
-## Walkthrough video link:
 
+## Walkthrough video link:
+https://drive.google.com/file/d/15oRcJiCHnwHkCGZ0Ank3XIlgrTPDkmVz/view
 
 
 ---
