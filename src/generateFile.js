@@ -1,4 +1,4 @@
-// create Manager box
+
 const generateManager = function (manager) {
   return `
   <div class="col-4 mt-4">
@@ -17,7 +17,7 @@ const generateManager = function (manager) {
   `;
 }
 
-// create Engineer box
+
 const generateEngineer = function (engineer) {
   return `
   <div class="col-4 mt-4">
@@ -36,7 +36,6 @@ const generateEngineer = function (engineer) {
   `
 }
 
-// create Intern box
 const generateIntern = function (intern) {
   return `
   <div class="col-4 mt-4">
@@ -55,10 +54,7 @@ const generateIntern = function (intern) {
   `
 };
 
-// push array to page 
 generateFile = (data) => {
-
-  // array for cards 
   pageArray = []; 
 
   for (let i = 0; i < data.length; i++) {
@@ -68,30 +64,26 @@ generateFile = (data) => {
       // call manager function
       if (role === 'Manager') {
           const managerCard = generateManager(employee);
-
           pageArray.push(managerCard);
       }
 
       // call engineer function
       if (role === 'Engineer') {
           const engineerCard = generateEngineer(employee);
-
           pageArray.push(engineerCard);
       }
 
       // call intern function 
       if (role === 'Intern') {
           const internCard = generateIntern(employee);
-
           pageArray.push(internCard);
       }
       
   }
 
-  // joining strings 
   const employeeCards = pageArray.join('')
 
-  // return to generated page
+  // returns to generated page
   const generateTeam = generateTeamPage(employeeCards); 
   return generateTeam;
 

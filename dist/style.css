@@ -1,6 +1,6 @@
 body {
     font-family: 'Inconsolata', monospace;
-    background-image: url('./img/background.png');
+    /* background-image: url('./img/background.png'); */
     background-size: 100%;
     margin-left: 5%;
 }
@@ -10,23 +10,38 @@ body {
 }
 
 .navbar-brand {
-    margin-top: -10px;
+    margin-top: -5px;
     font-size: 40px;
     font-weight: bold;
+    border: 2px solid;
+    background-color: red;
+    width: 100%;
 }
 
 .card-header {
-    background-color: rgba(79, 87, 135, 0.734);
+    background-color: rgba(17, 49, 228, 0.835);
     color: white;
 }
 
 .card-body {
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     color: rgb(119, 136, 153);
+    height: 180px;
+}
+
+div p{
+    text-align: -20px;
+    border: 0.5px solid rgb(202, 195, 195);
+    margin: 0px;
+    background-color: white;
+    height: 40px;
+    padding: 10px 10px;
 }
 
 .container {
     margin: 100px auto;
-    justify-content: space-evenly;
-    display: flex;
+    justify-content:center;
+    display:flex;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
 }
